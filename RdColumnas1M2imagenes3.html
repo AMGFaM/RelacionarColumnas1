@@ -411,10 +411,10 @@ function verificar(){
         }
     });
 
-    let calificacion = (aciertos/7)*10;
+    let calificacion = (aciertos/5)*10;
 
     document.getElementById("resultado").textContent =
-        `Aciertos: ${aciertos}/7 | Calificación: ${calificacion.toFixed(1)}/10`;
+        `Aciertos: ${aciertos}/5 | Calificación: ${calificacion.toFixed(1)}/10`;
 
     let mensaje = "";
     if(calificacion === 10) mensaje="¡Excelente!";
